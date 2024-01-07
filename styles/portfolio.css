@@ -5,14 +5,27 @@ body {
         sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 /* Nav related style */
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
 .nav-title {
@@ -20,4 +33,19 @@ nav {
     font-size: 45px;
     font-weight: 800;
     line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
 }
